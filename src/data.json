@@ -1,0 +1,30 @@
+[
+    {
+        "modulename": "区域",
+        "introduce": "中国区域信息",
+        "author": "ZTBCMS",
+        "address": "http://doc.ztbcms.com",
+        "versions": [
+            {
+                "version": "1.0.0.1",
+                "adaptation": "3.0.0.0"
+            },
+            {
+                "version": "1.0.0.0",
+                "adaptation": "3.0.0.0"
+            }
+        ]
+    },
+    {
+        "modulename": "投票",
+        "introduce": "信息投票",
+        "author": "ZTBCMS",
+        "address": "http://doc.ztbcms.com",
+        "versions": [
+            {
+                "version": "1.0.1.0",
+                "adaptation": "3.0.0.0"
+            }
+        ]
+    }
+]
