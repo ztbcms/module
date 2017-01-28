@@ -2,7 +2,7 @@ const gulp = require('gulp')
 const glob = require('glob')
 const fs = require('fs')
 
-gulp.task('build', function () {
+gulp.task('update-module', function () {
   glob('module/**/*.json', {}, function (er, files) {
     let result = []
     files.forEach(function (file, index) {
@@ -11,8 +11,12 @@ gulp.task('build', function () {
     })
 
     fs.writeFileSync('dist/data.json', JSON.stringify(result), null, 4)
-    console.log(JSON.stringify(result, null, 4))
   })
 })
 
-gulp.task('default', ['build'])
+gulp.task('build', function() {
+  return gulp.src('src/**/*')
+    .pipe(gulp.dest('dist/'));
+});
+
+gulp.task('default', ['build', 'update-module'])
