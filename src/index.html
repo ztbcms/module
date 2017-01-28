@@ -60,8 +60,8 @@
                     </a>
                     
                     <div class="zero-clipboard">
-                        <select>
-                            <option v-for="v in item.versions" v-bind:value="'https://github.com/ztbcms/' + item.modulename + '/archive/' + v.version + '.zip'">v{{ v.version }}</option>
+                        <select  v-bind:id="'select' + index">
+                            <option v-for="v in item.versions" v-bind:value="'https://github.com/ztbcms/' + item.name + '/archive/' + v.version + '.zip'">v{{ v.version }}</option>
                         </select>
                         <button class="btn btn-primary" style="height: 29px;" @click="downloadModule(index)">下载</button>
                     </div>
@@ -112,8 +112,10 @@
                 this.keyword = ''
             },
             downloadModule: function(index){
-                console.log(index)
-            }
+                var val = $('#select'+index).val()
+                window.open(val)
+            },
+            
         },
         mounted: function () {
             var that = this;
