@@ -42,9 +42,12 @@
         </header>
 
 
+<style>
+
+</style>
         <main class="packages-list-container" id="app">
             <div class="container">
-                <div class="list-group packages" v-for="item in searchResult">
+                <div class="list-group packages" v-for="(item, index) in searchResult" style="position: relative;">
                     <a v-bind:href="item.address" class="package list-group-item" target="_blank">
                         <div class="row">
                             <div class="col-md-3">
@@ -53,11 +56,16 @@
                             <div class="col-md-9 hidden-xs">
                                 <p class="package-description">{{ item.introduce }}</p>
                             </div>
-                            <div class="package-extra-info col-md-9 col-md-offset-3 col-xs-12">
-                                <span><i class="fa fa-star"></i> 0</span>
-                            </div>
                         </div>
                     </a>
+                    
+                    <div class="zero-clipboard">
+                        <select>
+                            <option v-for="v in item.versions" v-bind:value="'https://github.com/ztbcms/' + item.modulename + '/archive/' + v.version + '.zip'">v{{ v.version }}</option>
+                        </select>
+                        <button class="btn btn-primary" style="height: 29px;" @click="downloadModule(index)">下载</button>
+                    </div>
+                    
                 </div>
             </div>
         </main>
@@ -80,18 +88,18 @@
             moduels: [],
         },
         computed: {
-            searchResult: function(){
-                
-                if(this.keyword == ''){
+            searchResult: function () {
+
+                if (this.keyword == '') {
                     return this.moduels
                 }
 
                 var result = []
                 var keyword = this.keyword
-                this.moduels.forEach(function(item, index){
+                this.moduels.forEach(function (item, index) {
                     console.log(item)
                     console.log(item.modulename)
-                    if(item.modulename.indexOf(keyword) != -1){
+                    if (item.modulename.indexOf(keyword) != -1) {
                         result.push(item)
                     }
                 })
@@ -100,28 +108,32 @@
             }
         },
         methods: {
-            cleanKeyword: function(){
+            cleanKeyword: function () {
                 this.keyword = ''
+            },
+            downloadModule: function(index){
+                console.log(index)
             }
         },
-        mounted: function(){
+        mounted: function () {
             var that = this;
-            
+
             $.ajax({
                 url: 'data.json',
                 type: 'GET',
                 dataTYpe: 'json',
-                success: function(res){
+                success: function (res) {
                     that.moduels = res
                 },
-                error: function(){
+                error: function () {
                     alert('网络繁忙，请稍后再试')
                 }
             })
-        }
+        },
+       
     })
 
-    
+
 </script>
 
 </html>

@@ -419,20 +419,29 @@ a:focus {
 }
 
 .zero-clipboard {
-  position: relative;
-  display: none
+  width: 200px;
+  display: inline-block;
+  position: absolute;
+    right: 0;
+    top: 37%;
+  
+}
+
+.zero-clipboard select{
+  background: white;
+  height: 29px;
 }
 
 @media (min-width:768px) {
   .zero-clipboard {
-    display: block
+    display: inline-block
   }
 }
 
 .btn-clipboard {
   position: absolute;
-  top: -31px;
-  right: -21px;
+  top: -22px;
+  right: -5px;
   z-index: 10;
   display: block;
   padding: 5px 8px;
