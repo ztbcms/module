@@ -1,0 +1,14 @@
+{
+
+    "name": "ztbcms-Formguide",
+    "modulename": "表单",
+    "introduce": "自定义信息表单，用于收集个例信息",
+    "author": "ZTBCMS",
+    "address": "http://doc.ztbcms.com",
+    "versions": [
+        {
+            "version": "1.0.1.0",
+            "adaptation": "3.0.0.0"
+        }
+    ]
+}
