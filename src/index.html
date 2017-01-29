@@ -96,13 +96,10 @@
                 var result = []
                 var keyword = this.keyword
                 this.moduels.forEach(function (item, index) {
-                    console.log(item)
-                    console.log(item.modulename)
                     if (item.modulename.indexOf(keyword) != -1) {
                         result.push(item)
                     }
                 })
-                console.log(result)
                 return result
             }
         },
