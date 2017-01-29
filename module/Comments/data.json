@@ -1,0 +1,14 @@
+{
+
+    "name": "ztbcms-Comments",
+    "modulename": "评论",
+    "introduce": "增加网站互动，用户评论管理",
+    "author": "ZTBCMS",
+    "address": "http://doc.ztbcms.com",
+    "versions": [
+        {
+            "version": "1.0.1.0",
+            "adaptation": "3.0.0.0"
+        }
+    ]
+}

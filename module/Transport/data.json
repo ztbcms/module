@@ -1,0 +1,14 @@
+{
+
+    "name": "ztbcms-Transport",
+    "modulename": "数据导入与导出",
+    "introduce": "导入与导出Excel",
+    "author": "ZTBCMS",
+    "address": "http://doc.ztbcms.com",
+    "versions": [
+        {
+            "version": "1.0.1.0",
+            "adaptation": "3.0.0.0"
+        }
+    ]
+}
