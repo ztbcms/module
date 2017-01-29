@@ -1,0 +1,14 @@
+{
+
+    "name": "ztbcms-Trade",
+    "modulename": "交易记录管理",
+    "introduce": "交易记录管理，统一交易明细",
+    "author": "ZTBCMS",
+    "address": "http://doc.ztbcms.com",
+    "versions": [
+        {
+            "version": "1.0.0.0",
+            "adaptation": "3.0.0.0"
+        }
+    ]
+}
