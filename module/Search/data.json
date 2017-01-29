@@ -1,0 +1,14 @@
+{
+
+    "name": "ztbcms-Search",
+    "modulename": "搜索",
+    "introduce": "全站内容信息搜索",
+    "author": "ZTBCMS",
+    "address": "http://doc.ztbcms.com",
+    "versions": [
+        {
+            "version": "1.0.2.0",
+            "adaptation": "3.0.0.0"
+        }
+    ]
+}

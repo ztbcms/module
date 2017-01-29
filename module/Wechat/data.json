@@ -1,0 +1,14 @@
+{
+
+    "name": "ztbcms-Wechat",
+    "modulename": "微信管理",
+    "introduce": "微信授权登录，api调用",
+    "author": "ZTBCMS",
+    "address": "http://doc.ztbcms.com",
+    "versions": [
+        {
+            "version": "2.0.0.0",
+            "adaptation": "3.0.0.0"
+        }
+    ]
+}
