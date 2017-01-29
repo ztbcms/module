@@ -1,0 +1,14 @@
+{
+
+    "name": "ztbcms-Sms",
+    "modulename": "短信模块",
+    "introduce": "短信模块",
+    "author": "ZTBCMS",
+    "address": "http://doc.ztbcms.com",
+    "versions": [
+        {
+            "version": "2.0.0.2",
+            "adaptation": "3.0.0.0"
+        }
+    ]
+}

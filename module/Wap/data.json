@@ -1,0 +1,14 @@
+{
+
+    "name": "ztbcms-Wap",
+    "modulename": "WAP手机版",
+    "introduce": "WAP手机版",
+    "author": "ZTBCMS",
+    "address": "http://doc.ztbcms.com",
+    "versions": [
+        {
+            "version": "1.0.2.0",
+            "adaptation": "3.0.0.0"
+        }
+    ]
+}

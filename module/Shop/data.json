@@ -1,0 +1,14 @@
+{
+
+    "name": "ztbcms-Shop",
+    "modulename": "单门店商城管理",
+    "introduce": "商城管理-商品，订单，分类",
+    "author": "ZTBCMS",
+    "address": "http://doc.ztbcms.com",
+    "versions": [
+        {
+            "version": "0.5.1.0",
+            "adaptation": "3.0.0.0"
+        }
+    ]
+}
