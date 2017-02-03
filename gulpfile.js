@@ -2,6 +2,9 @@ const gulp = require('gulp')
 const glob = require('glob')
 const fs = require('fs')
 
+/**
+ * 合并json
+ */
 gulp.task('update-module', function () {
   glob('module/**/*.json', {}, function (er, files) {
     let result = []
@@ -14,6 +17,9 @@ gulp.task('update-module', function () {
   })
 })
 
+/**
+ * 构建
+ */
 gulp.task('build', function() {
   return gulp.src('src/**/*')
     .pipe(gulp.dest('dist/'));
