@@ -13,8 +13,9 @@ $ npm install
 # 构建并预览
 $ npm start
 
-# 访问 http://10.1.1.247:3000 即可
 ```
+
+访问 http://10.1.1.247:3000 即可预览
 
 ### 发布到github-pages
 
