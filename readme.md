@@ -15,3 +15,10 @@ $ npm start
 
 # 访问 http://10.1.1.247:3000 即可
 ```
+
+### 发布到github-pages
+
+```shell 
+# 构建并推送到 github-pages 分支
+$ make deploy
+```
