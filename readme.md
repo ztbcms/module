@@ -22,3 +22,5 @@ $ npm start
 # 构建并推送到 github-pages 分支
 $ make deploy
 ```
+
+最后线上访问 http://mod.ztbcms.com ，数据更新可能有延时，多刷新2次即可
