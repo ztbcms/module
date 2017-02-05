@@ -4,7 +4,7 @@
     "modulename": "域名绑定",
     "introduce": "提供对模块进行二级域名绑定",
     "author": "ZTBCMS",
-    "address": "http://doc.ztbcms.com",
+    "address": "http://doc.ztbcms.com/module/domains/",
     "versions": [
         {
             "version": "1.0.0.0",

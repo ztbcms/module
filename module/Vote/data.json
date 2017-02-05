@@ -3,7 +3,7 @@
     "modulename": "投票",
     "introduce": "信息投票",
     "author": "ZTBCMS",
-    "address": "http://doc.ztbcms.com",
+    "address": "http://doc.ztbcms.com/module/vote/",
     "versions": [
         {
             "version": "1.0.1.0",

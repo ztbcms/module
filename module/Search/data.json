@@ -4,7 +4,7 @@
     "modulename": "搜索",
     "introduce": "全站内容信息搜索",
     "author": "ZTBCMS",
-    "address": "http://doc.ztbcms.com",
+    "address": "http://doc.ztbcms.com/module/search/",
     "versions": [
         {
             "version": "1.0.2.0",

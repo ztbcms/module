@@ -4,7 +4,7 @@
     "modulename": "评论",
     "introduce": "增加网站互动，用户评论管理",
     "author": "ZTBCMS",
-    "address": "http://doc.ztbcms.com",
+    "address": "http://doc.ztbcms.com/module/comments/",
     "versions": [
         {
             "version": "1.0.1.0",

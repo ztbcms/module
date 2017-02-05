@@ -4,7 +4,7 @@
     "modulename": "表单",
     "introduce": "自定义信息表单，用于收集个例信息",
     "author": "ZTBCMS",
-    "address": "http://doc.ztbcms.com",
+    "address": "http://doc.ztbcms.com/module/formguide/",
     "versions": [
         {
             "version": "1.0.1.0",

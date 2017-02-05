@@ -4,7 +4,7 @@
     "modulename": "数据导入与导出",
     "introduce": "导入与导出Excel",
     "author": "ZTBCMS",
-    "address": "http://doc.ztbcms.com",
+    "address": "http://doc.ztbcms.com/module/transport/",
     "versions": [
         {
             "version": "1.0.1.0",
