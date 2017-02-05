@@ -4,7 +4,7 @@
     "modulename": "采集",
     "introduce": "采集模块是可以批量采集目标网站内容入库",
     "author": "ZTBCMS",
-    "address": "http://doc.ztbcms.com",
+    "address": "http://doc.ztbcms.com/module/collection/",
     "versions": [
         {
             "version": "1.0.0.0",
