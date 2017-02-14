@@ -40,10 +40,6 @@
             </div>
         </header>
 
-
-<style>
-
-</style>
         <main class="packages-list-container" id="app" style="display: none;">
             <div class="container">
                 <div class="list-group packages" v-for="(item, index) in searchResult" style="position: relative;">
@@ -81,9 +77,9 @@
 <script>
     var GLOBAL_URL = {
         'data': '/data.json'
-    }
+    };
 
-    var app = new Vue({
+    var App = new Vue({
         el: '#app',
         data: {
             keyword: '',
@@ -128,7 +124,7 @@
                 });
         },
        
-    })
+    });
 
 
 </script>
