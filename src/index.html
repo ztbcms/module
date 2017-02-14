@@ -10,14 +10,14 @@
     <meta name="author" content="ZTBCMS">
     <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="/assets/css/site.css" rel="stylesheet">
-    <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+    <script src="//cdn.bootcss.com/axios/0.15.3/axios.min.js"></script>
     <script src="//cdn.bootcss.com/vue/2.1.10/vue.min.js"></script>
 
     <link rel="shortcut icon" href="/assets/ico/favicon.ico">
 </head>
 
 <body class="home-template">
-    <div id="app">
+    <div>
         <header class="site-header jumbotron">
             <div class="site-nav">
                 <a href="https://github.com/ztbcms/module" target="_blank">GITHUB</a>
@@ -44,7 +44,7 @@
 <style>
 
 </style>
-        <main class="packages-list-container" id="app">
+        <main class="packages-list-container" id="app" style="display: none;">
             <div class="container">
                 <div class="list-group packages" v-for="(item, index) in searchResult" style="position: relative;">
                     <a v-bind:href="item.address" class="package list-group-item" target="_blank">
@@ -79,6 +79,9 @@
 </body>
 
 <script>
+    var GLOBAL_URL = {
+        'data': '/data.json'
+    }
 
     var app = new Vue({
         el: '#app',
@@ -114,19 +117,15 @@
             
         },
         mounted: function () {
+            document.getElementById('app').style.display = ''
             var that = this;
-
-            $.ajax({
-                url: 'data.json',
-                type: 'GET',
-                dataTYpe: 'json',
-                success: function (res) {
-                    that.moduels = res
-                },
-                error: function () {
-                    alert('网络繁忙，请稍后再试')
-                }
-            })
+            axios.get(GLOBAL_URL.data)
+                .then(function (response) {
+                    that.moduels = response.data
+                })
+                .catch(function (error) {
+                    console.log(error);
+                });
         },
        
     })
