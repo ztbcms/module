@@ -107,8 +107,8 @@
                 this.keyword = ''
             },
             downloadModule: function(index){
-                var val = $('#select'+index).val()
-                window.open(val)
+                var download_url = document.querySelector('#select' + index).value
+                window.open(download_url)
             },
             
         },
