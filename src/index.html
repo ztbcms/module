@@ -75,6 +75,7 @@
 </body>
 
 <script>
+    //全局的URL
     var GLOBAL_URL = {
         'data': '/data.json'
     };
@@ -86,8 +87,8 @@
             moduels: [],
         },
         computed: {
+            //搜索关键字
             searchResult: function () {
-
                 if (this.keyword == '') {
                     return this.moduels
                 }
@@ -103,9 +104,11 @@
             }
         },
         methods: {
+            //清空关键字
             cleanKeyword: function () {
                 this.keyword = ''
             },
+            //下载模块
             downloadModule: function(index){
                 var download_url = document.querySelector('#select' + index).value
                 window.open(download_url)
