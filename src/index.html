@@ -11,13 +11,13 @@
     <link href="//cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
     <link href="/assets/css/site.css" rel="stylesheet">
     <script src="//cdn.bootcss.com/axios/0.15.3/axios.min.js"></script>
-    <script src="//cdn.bootcss.com/vue/2.1.10/vue.min.js"></script>
+    <script src="//cdn.bootcss.com/vue/2.1.10/vue.js"></script>
 
     <link rel="shortcut icon" href="/assets/ico/favicon.ico">
 </head>
 
-<body class="home-template">
-    <div>
+<body class="home-template" >
+    <div id="app" style="display: none;">
         <header class="site-header jumbotron">
             <div class="site-nav">
                 <a href="https://github.com/ztbcms/module" target="_blank">GITHUB</a>
@@ -40,7 +40,7 @@
             </div>
         </header>
 
-        <main class="packages-list-container" id="app" style="display: none;">
+        <main class="packages-list-container">
             <div class="container">
                 <div class="list-group packages" v-for="(item, index) in searchResult" style="position: relative;">
                     <a v-bind:href="item.address" class="package list-group-item" target="_blank">
