@@ -9,22 +9,6 @@
         {
             "version": "2.0.1.2",
             "adaptation": "3.0.0.0"
-        },
-        {
-            "version": "2.0.1.1",
-            "adaptation": "3.0.0.0"
-        },
-        {
-            "version": "2.0.1.0",
-            "adaptation": "3.0.0.0"
-        },
-        {
-            "version": "2.0.0.3",
-            "adaptation": "3.0.0.0"
-        },
-        {
-            "version": "2.0.0.2",
-            "adaptation": "3.0.0.0"
         }
     ]
 }
