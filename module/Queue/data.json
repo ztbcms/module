@@ -1,0 +1,14 @@
+{
+
+    "name": "ztbcms-Queue",
+    "modulename": "队列",
+    "introduce": "队列",
+    "author": "ZTBCMS",
+    "address": "http://doc.ztbcms.com/module/queue/",
+    "versions": [
+        {
+            "version": "1.0.0.0",
+            "adaptation": "3.0.0.0"
+        }
+    ]
+}
