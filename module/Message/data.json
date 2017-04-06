@@ -1,0 +1,18 @@
+{
+
+    "name": "ztbcms-Message",
+    "modulename": "消息系统",
+    "introduce": "私信、提醒，站内信",
+    "author": "Jayin",
+    "address": "http://doc.ztbcms.com/module/message/",
+    "versions": [
+        {
+            "version": "1.0.1.0",
+            "adaptation": "3.0.0.0"
+        },
+         {
+            "version": "1.0.0.0",
+            "adaptation": "3.0.0.0"
+        }
+    ]
+}
