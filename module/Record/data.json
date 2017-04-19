@@ -1,0 +1,14 @@
+{
+
+    "name": "ztbcms-Record",
+    "modulename": "记录模块",
+    "introduce": "常规的交易记录和积分记录实现",
+    "author": "zhlhuang",
+    "address": "http://doc.ztbcms.com/module/queue/",
+    "versions": [
+        {
+            "version": "2.0.2.0",
+            "adaptation": "3.0.0.0"
+        }
+    ]
+}
