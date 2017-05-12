@@ -1,0 +1,14 @@
+{
+
+    "name": "ztbcms-Log",
+    "modulename": "日志",
+    "introduce": "日志记录",
+    "author": "Jayin",
+    "address": "http://doc.ztbcms.com/module/log/",
+    "versions": [
+         {
+            "version": "1.0.0.0",
+            "adaptation": "3.0.0.0"
+        }
+    ]
+}
