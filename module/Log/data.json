@@ -6,6 +6,10 @@
     "author": "Jayin",
     "address": "http://doc.ztbcms.com/module/log/",
     "versions": [
+        {
+            "version": "1.0.0.1",
+            "adaptation": "3.0.0.0"
+        },
          {
             "version": "1.0.0.0",
             "adaptation": "3.0.0.0"
