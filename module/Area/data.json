@@ -7,6 +7,10 @@
     "address": "http://doc.ztbcms.com",
     "versions": [
         {
+            "version": "1.0.0.5",
+            "adaptation": "3.0.0.0"
+        },
+        {
             "version": "1.0.0.4",
             "adaptation": "3.0.0.0"
         },
