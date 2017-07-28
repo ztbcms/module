@@ -7,6 +7,10 @@
     "address": "http://doc.ztbcms.com/module/cron/",
     "versions": [
         {
+            "version": "2.1.2.1",
+            "adaptation": "3.0.0.0"
+        },
+        {
             "version": "2.1.2.0",
             "adaptation": "3.0.0.0"
         },
