@@ -7,6 +7,13 @@
     "address": "http://doc.ztbcms.com/module/queue/",
     "versions": [
         {
+            "version": "2.0.3.0",
+            "adaptation": "3.0.0.0"
+        },{
+            "version": "2.0.2.2",
+            "adaptation": "3.0.0.0"
+        },
+        {
             "version": "2.0.2.1",
             "adaptation": "3.0.0.0"
         },
