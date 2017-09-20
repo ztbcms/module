@@ -14,10 +14,15 @@
     <script src="//cdn.bootcss.com/vue/2.1.10/vue.js"></script>
 
     <link rel="shortcut icon" href="/assets/ico/favicon.ico">
+    <style>
+        [v-cloak]{
+            display: none;
+        }
+    </style>
 </head>
 
 <body class="home-template" >
-    <div id="app" style="display: none;">
+    <div id="app" v-cloak>
         <header class="site-header jumbotron">
             <div class="site-nav">
                 <a href="https://github.com/ztbcms/module" target="_blank">GITHUB</a>
