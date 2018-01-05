@@ -1,0 +1,14 @@
+{
+
+    "name": "ztbcms-Alipay",
+    "modulename": "支付宝支付",
+    "introduce": "支付宝支付",
+    "author": "ZTBCMS",
+    "address": "http://ztbcms.com/module/alipay/",
+    "versions": [
+        {
+            "version": "1.0.0.0",
+            "adaptation": "3.0.0.0"
+        }
+    ]
+}

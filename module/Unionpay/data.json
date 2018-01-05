@@ -1,0 +1,14 @@
+{
+
+    "name": "ztbcms-Unionpay",
+    "modulename": "银联支付",
+    "introduce": "银联支付网关",
+    "author": "ZTBCMS",
+    "address": "http://ztbcms.com/module/unionpay/",
+    "versions": [
+        {
+            "version": "1.0.0.0",
+            "adaptation": "3.0.0.0"
+        }
+    ]
+}
