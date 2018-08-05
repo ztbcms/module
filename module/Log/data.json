@@ -7,6 +7,14 @@
     "address": "http://doc.ztbcms.com/module/log/",
     "versions": [
         {
+            "version": "1.0.0.4",
+            "adaptation": "3.0.0.0"
+        },
+        {
+            "version": "1.0.0.3",
+            "adaptation": "3.0.0.0"
+        },
+        {
             "version": "1.0.0.2",
             "adaptation": "3.0.0.0"
         },
