@@ -7,6 +7,10 @@
     "address": "http://doc.ztbcms.com/module/message/",
     "versions": [
         {
+            "version": "1.0.6.0",
+            "adaptation": "3.0.0.0"
+        },
+        {
             "version": "1.0.5.1",
             "adaptation": "3.0.0.0"
         },
